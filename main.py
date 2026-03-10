@@ -29,6 +29,7 @@ def main():
                 print("   - Статус: В разработке\n")
                 
             elif choice == "2":
+		print("   - Версия: 2.0")
                 show_progress()
                 print("\nВсё работает отлично!\n")
                 
