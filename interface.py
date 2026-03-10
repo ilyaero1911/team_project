@@ -25,3 +25,14 @@ def show_menu():
     table.add_row("3", "Выход", "Завершить программу")
     
     console.print(table)
+
+def show_loading(message="Загрузка", seconds=2):
+    """Показывает анимированную загрузку"""
+    with console.status(f"[bold green]{message}..."):
+        time.sleep(seconds)
+    console.print("[bold green]✓ Готово![/]")
+
+def show_progress():
+    """Показывает прогресс-бар"""
+    for step in track(range(100), description="[cyan]Выполнение..."):
+        time.sleep(0.02)
