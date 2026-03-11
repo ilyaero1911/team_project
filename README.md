@@ -15,3 +15,9 @@ pip install -r requirements.txt
 ## Run
 
 python main.py
+## Authors
+- Erofeev Ilya
+- Vakhrusheva Ksenia
+- Golik Elizaveta
+- Nikiforova Anastasia
+
